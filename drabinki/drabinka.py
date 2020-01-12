@@ -15,15 +15,11 @@ zawodnicy[11] = 'GrzesiekB'
 
 lz = len(zawodnicy)
 wykladnik = math.trunc(math.sqrt(lz))
-
 a=0
 tabPozostali = []
-
 for i in range(0,lz+1):
     if(i > 2**wykladnik):
         tabPozostali.append(zawodnicy[i])
-
-
 print(tabPozostali)
 
 
